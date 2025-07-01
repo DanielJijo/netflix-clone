@@ -19,7 +19,7 @@ export default function MovieCard({ movie }: MovieCardProps) {
 
   return (
     <div
-      className="relative flex-shrink-0 w-full max-w-[200px] md:max-w-[240px] lg:max-w-[300px] transition-transform duration-300 ease-out"
+      className="relative flex-shrink-0 w-[48%] sm:w-[31%] md:w-[23%] lg:w-[15%] max-w-[200px] md:max-w-[240px] lg:max-w-[300px] transition-transform duration-300 ease-out min-w-[140px]"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
